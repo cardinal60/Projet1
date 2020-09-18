@@ -10,7 +10,7 @@ Pour ce faire, vous devez compléter les deux programmes `poutre_rect.py` et `po
 ## Partie 1 : Poutre rectangulaire
 À faire : compléter le fichier `poutre_rect.py`
 
-Considérant que la section de la poutre est rectangulaire tel que présenté à la figure ci-dessous, et considérant les données fournis dans le fichier, vous devez écrire un programme permettant de calculer la déformation maximale de la poutre (`delta_max). Vous devrez au préalable calculer le moment quadratique de la section.
+Considérant que la section de la poutre est rectangulaire tel que présenté à la figure ci-dessous, et considérant les données fournies dans le fichier, vous devez écrire un programme permettant de calculer la déformation maximale de la poutre (`delta_max`). Vous devrez au préalable calculer le moment quadratique de la section (Appelé *inertie* dans le code source).
 
 ![Poutre encastrée](data/poutre_section.png)
 
@@ -26,7 +26,7 @@ Concevoir un programme qui permet, considérant les données d'entrée fournies 
 
 Votre programme doit afficher la réponse suivant une nomenclature précise :
 ```
-Le type de section minimisant la déformation maximale est <section>, avec un déformation de <delta_max> mm
+Le type de section minimisant la déformation maximale est <section>, avec une déformation de <delta_max> mm
 ```
 où :
 - <section> est le type de section, pouvant prendre les valeurs : `rectangulaire`, `carrée`, `ronde`et `creuse`.
@@ -35,7 +35,7 @@ où :
 Exemple d'affichage :
 
 ```
-Le type de section minimisant la déformation maximale est ronde, avec un déformation de 20.07 mm
+Le type de section minimisant la déformation maximale est ronde, avec une déformation de 20.07 mm
 ```
 
 Pour résoudre cet exercice, vous devez utiliser des structures de contrôles.
@@ -52,7 +52,7 @@ où:
 
 - F est la force appliquée 
 - E est le module de Young
-- I est le moment quadratique de la section
+- I est le moment quadratique de la section (appelé *inertie* dans les sources)
 - L est la longueur de la poutre
 
 ### Calcul du moment quadratique de la section
