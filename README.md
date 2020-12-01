@@ -3,6 +3,9 @@
 <!--- Changer la date de remise en modifiant le URL--->
 #### :alarm_clock: [Date de remise le lundi 28 septembre à 23h59](https://www.timeanddate.com/countdown/generic?iso=20200928T2359&p0=165&msg=Remise&font=cursive&csz=1#)
 
+## Correction
+Note : 20/20
+
 ## Objectif
 Concevoir et implémenter un programme permettant de calculer la déformation d'une poutre encastrée sous l'effet d'un poids à son extrémité.
 Pour ce faire, vous devez compléter les deux programmes `poutre_rect.py` et `poutre_section.py`.
